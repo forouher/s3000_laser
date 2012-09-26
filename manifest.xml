@@ -1,11 +1,13 @@
 <package>
-  <description brief="s3000_laser">
+  <description brief="SICK S3000 laser driver">
 
-     s3000
+	This driver controls the SICK S3000 safety laser scanner interpreting its data output.
+	The driver is very basic and assumes the S3000 has already been configured to continuously output
+	its measured data on the RS422 data lines.
 
   </description>
-  <author>Roberto</author>
-  <license>BSD</license>
+  <author>Robotnik Automation</author>
+  <license>GPL</license>
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/s3000_laser</url>
   <depend package="roscpp"/>
