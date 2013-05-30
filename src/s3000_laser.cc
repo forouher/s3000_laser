@@ -143,6 +143,7 @@ public:
     if (bValidData) {
     	data.header.stamp = ros::Time::now();
 	laser_data_pub_.publish( data );
+	freq_diag_.tick();
 	}
 
 /*
