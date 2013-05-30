@@ -76,7 +76,7 @@ public:
   node_handle_(h), private_node_handle_("~"), 
   error_count_(0), 
   slow_count_(0), 
-  desired_freq_(20), 
+  desired_freq_(16), 
   freq_diag_(diagnostic_updater::FrequencyStatusParam(&desired_freq_, &desired_freq_, 0.05))
   {
     ros::NodeHandle laser_node_handle(node_handle_, "s3000_laser");
